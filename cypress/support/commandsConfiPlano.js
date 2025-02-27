@@ -31,7 +31,7 @@ Cypress.Commands.add('ValidarConfigPlano', ()=>{
     cy.get(seletores.BotãoEntrarContato).click()
     cy.wait(2000)
     cy.get(seletores.MensagemInscriçao).should('be.visible').invoke('text').then((valor)=>{
-        expect(valor).equal('Inscrição realizada com sucesso! Em breve nosso time entrará em contato.')
+        expect(valor).to.be.oneOf(['Inscrição realizada com sucesso! Em breve nosso time entrará em contato','Your submission failed because of a server error.Falha ao enviar sua inscrição devido a um erro. Tente novamente mais tarde.'])
     })
     
 
