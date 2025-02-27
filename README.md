@@ -10,8 +10,8 @@ node v18.18.0
 
 Passo para execução:
 1- Fazer o download do projeto
-2.1 - Para iniciar via terminal execute o comando ou npx cypress run (para execução via terminal, e para determinar o nome do navegador de execução execuar npx cypress run --browser chrome ou npx cypress run --browser edge ou npx cypress run --browser firefox ou npx cypress run --browser electron)
-2.2 - Para executar via interface executar o comando 
+2 - Para iniciar via terminal execute o comando ou npx cypress run (para execução via terminal, e para determinar o nome do navegador de execução execuar npx cypress run --browser chrome ou npx cypress run --browser edge ou npx cypress run --browser firefox ou npx cypress run --browser electron)
+2.1 - Para executar via interface executar o comando 
 - npx cypress open, 
 - clicar em E2E Testing
 - Selecionar o navegador
